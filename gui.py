@@ -10,7 +10,7 @@ from folder_processor import FolderProcessor
 class UUIDRedirectorGUI:
     def __init__(self, master):
         self.master = master
-        master.title("UUID重定向工具 v2.1")
+        master.title("UUID重定向工具 v1.0")
         
         # 状态跟踪变量
         self.scanned_files = []
